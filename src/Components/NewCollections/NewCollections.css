@@ -1,0 +1,13 @@
+.new-collections{
+    margin-top: 120px;
+}
+.collections{
+    margin-bottom: 150px;
+}
+
+@media (max-width:426px){  
+    .new-collections{
+        margin-top: 10px;
+    }
+
+}
