@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo">
             <img src={logo} alt="" />
-            <p><Link style={{textDecoration:'none'}} to='/'>Shop Mart</Link></p>
+            <p><Link style={{textDecoration:'none',color:'black'}} to='/'>Shop Mart</Link></p>
         </div>
        
        <div className="nav-menu">
