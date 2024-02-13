@@ -22,15 +22,15 @@ const Footer = () => {
         </ul>
         <div className="footer-social-icon">
             <div className="footer-icons-container">
-                <Link to=''><img src={instagram_icon} alt="" /></Link>
+                <Link to='https://www.instagram.com/' target='blank'><img src={instagram_icon} alt="" /></Link>
                 
             </div>
             <div className="footer-icons-container">
-                <Link to=''><img src={pintest_icon} alt="" /></Link>
+                <Link to='https://in.pinterest.com/' target='blank'><img src={pintest_icon} alt="" /></Link>
                 
             </div>
             <div className="footer-icons-container">
-            <Link to=''><img src={whatsapp_icon} alt="" /></Link>
+            <Link to='https://web.whatsapp.com/' target='blank'><img src={whatsapp_icon} alt="" /></Link>
             </div>
         </div>
         <div className="footer-copyrights">

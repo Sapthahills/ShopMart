@@ -3,7 +3,7 @@ import './CSS/ShopCategory.css'
 import { ShopContext } from '../Context/ShopContext'
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 import Item from '../Components/Item/Item'
-
+import { Link } from 'react-router-dom'
 const ShopCategory = (props) => {
   const {all_product}=useContext(ShopContext)
   return (
@@ -30,7 +30,7 @@ const ShopCategory = (props) => {
         })}
       </div>
       <div className="shopcategory-loadmore">
-        Explore more
+        <Link style={{textDecoration:'none',color:'black'}} to='/'> Explore more</Link>
       </div>
     </div>
   )

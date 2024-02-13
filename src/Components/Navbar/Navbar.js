@@ -17,10 +17,11 @@ const Navbar = () => {
        
        <div className="nav-menu">
             <ul className={menuOpen?"open":" "}>
-                <li><Link style={{textDecoration:'none'}} to='/'>Shop</Link></li>
-                <li><Link style={{textDecoration:'none'}} to='/mens'>Men</Link></li>
+                <li ><Link style={{textDecoration:'none'}} to='/'>Shop</Link></li>
+                <li className="nav-up" onClick={()=>SetMenuOpen(!menuOpen)}><Link style={{textDecoration:'none'}} to='/mens'>Men</Link></li>
                 <li><Link style={{textDecoration:'none'}} to='womens'>Women</Link></li>
                 <li><Link style={{textDecoration:'none'}} to='/kids'>Kids</Link></li>
+            
             </ul>
             </div>
             <div className="nav-login-cart">
